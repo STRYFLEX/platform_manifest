@@ -2,7 +2,7 @@
 
 To initialize your local repository using the StryFlex trees, use a command like this:
 ````bash
-repo init -u git://github.com/STRYFLEX/manifest.git -b mm-6.0
+repo init -u https://github.com/STRYFLEX/platform_manifest.git -b mm-6.0
 ```
 Then to sync up:
 ````bash
