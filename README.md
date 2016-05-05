@@ -1,13 +1,14 @@
-AOSP+RRO MarshMallow
+StryFlex ROM
 ===========
+![StryFlex](http://forum.xda-developers.com/attachment.php?attachmentid=3438056&amp;d=1439487936)
 
-To initialize your local repository using the AOSP-RRO trees, use a command like this:
+To initialize your local repository using the StryFlex trees, use a command like this:
 ````bash
-repo init -u git://github.com/AOSP-RRO/manifest.git -b marshmallow
+repo init -u git://github.com/STRYFLEX/manifest.git -b mm-6.0
 ```
 Then to sync up:
 ````bash
-repo sync
+repo sync -c -f --force-sync
 ```
 Finally to build:
 ````bash
@@ -15,6 +16,6 @@ Finally to build:
 ```
 Example:
 ````bash
-./build.sh falcon
+./build.sh taoshan
 ./build.sh titan
 ```
