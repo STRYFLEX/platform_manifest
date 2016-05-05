@@ -1,5 +1,3 @@
-StryFlex ROM
-===========
 ![StryFlex](http://forum.xda-developers.com/attachment.php?attachmentid=3438056&amp;d=1439487936)
 
 To initialize your local repository using the StryFlex trees, use a command like this:
